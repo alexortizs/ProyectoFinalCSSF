@@ -1,5 +1,5 @@
-.cinema-body {
-  background: url(../img/fondo.jpg);
+.blogmusica-body {
+/*  background: url(../img/fondo.jpg);*/
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-position: center center;
@@ -9,9 +9,11 @@
 }
 
 .navbar-inverse {
-  background-color: rgba(8, 45, 94, 0.95);
+  background-color:rgba(80, 8, 1, 0.96);
   min-height: 10%;
   border: none;
+  padding: 0% 2%;
+  color:white;
 }
 
 .logo-img {
@@ -21,14 +23,22 @@
 .container-fluid {
   margin-top: 73px;
 }
+.menu-bmusical {
+   background-color:rgba(60, 8, 1, 0.96);
+   min-height: 25%;
+   border: none;
+   padding: 0% 2%;
+   color:black;
+  }
 
 .jumbotron {
-  background: url(../img/cartelera.jpg);
+  /* background: url(../img/cartelera.jpg); */
+
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  min-height: 500px;
+  min-height: 200px;
   border-radius: 0px !important;
   margin-bottom: 0px;
 }
@@ -70,7 +80,7 @@
 
 .titulo-cartelera {
   min-height: 35px;
-  background-color: rgba(8, 45, 94, 0.95);
+  background-color: rgba(80, 8, 1, 0.96);
 }
 
 .titulo-text {
@@ -131,7 +141,7 @@
 
 .btn-save {
   width: 40%;
-  background-color: rgba(8, 45, 94, 0.95);
+  background-color: rgba(80, 8, 1, 0.96);
   color: #FFFFFF;
 }
 
