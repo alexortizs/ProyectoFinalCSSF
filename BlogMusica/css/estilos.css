@@ -20,15 +20,19 @@
   width: 120px;
 }
 
-.container-fluid {
-  margin-top: 73px;
+.container-barra {
+  margin-top: 4%;
 }
-.menu-bmusical {
-   background-color:rgba(60, 8, 1, 0.96);
+.container-fluid {
+  margin-top: 76px;
+}
+
+.menu-container {
+   background-color:rgba(193, 0, 0,0.95);
    min-height: 25%;
    border: none;
-   padding: 0% 2%;
-   color:black;
+   padding: 2% 2%;
+
   }
 
 .jumbotron {
@@ -69,8 +73,10 @@
   margin-top: 22px;
 }
 
-.movie-title {
+.menu-title {
   color: #FFFFFF;
+  vertical-align: middle;
+
 }
 
 .welcome-title {
@@ -96,7 +102,14 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+.music-row {
+  background: rgba(193, 0, 0,0.95);
+  min-height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
 
+
+}
 .movies-row-last {
   background: rgba(0, 0, 0, 0.8);
   min-height: 425px;
@@ -115,6 +128,7 @@
 
 .row-centered {
   text-align:center;
+  vertical-align: middle;
 }
 
 .services-text {
