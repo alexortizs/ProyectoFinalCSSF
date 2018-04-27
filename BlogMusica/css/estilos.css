@@ -9,7 +9,8 @@
 }
 
 .navbar-inverse {
-  background-color:rgba(80, 8, 1, 0.96);
+  /*background-color:rgba(80, 8, 1, 0.96);  */
+background-color:rgba(131, 3, 3, 1);
   min-height: 10%;
   border: none;
   padding: 0% 2%;
@@ -21,19 +22,32 @@
 }
 
 .container-barra {
-  margin-top: 4%;
+  margin-top: 5%;
 }
 .container-fluid {
   margin-top: 76px;
 }
 
 .menu-container {
-   background-color:rgba(193, 0, 0,0.95);
+   background-color:rgba(131, 3, 3, 1);
    min-height: 25%;
    border: none;
    padding: 2% 2%;
 
   }
+
+
+.music-row {
+    /**background: rgba(13, 11, 12, 1);**/
+    background-color:rgba(227, 52, 52, 1);
+    min-height: 50px;
+    padding:8px 15px 5px 15px;
+    }
+
+.boton-menu{
+  background-color:rgba(131, 3, 3, 1);
+  width: 100px;
+}
 
 .jumbotron {
   /* background: url(../img/cartelera.jpg); */
@@ -47,7 +61,22 @@
   margin-bottom: 0px;
 }
 
+.blog-musica {
+  /* background: url(../img/cartelera.jpg); */
+
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 200px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}
 .jumbotron-img {
+  width: 220px;
+  margin-top: 20px;
+}
+.blog-musical-img {
   width: 220px;
   margin-top: 20px;
 }
@@ -55,7 +84,18 @@
 .jumbotron-text {
   font-size: 16px;
   margin-top: 20px;
-  color: #FFFFFF;
+  color: #000000;
+}
+.titulo-blog-musical {
+  font-size: 18px;
+  color: #000000;
+
+}
+.blog-musical-text {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #000000;
+  text-align: justify;
 }
 
 .redes-sociales {
@@ -63,8 +103,8 @@
 }
 
 .img-social {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 .img-movies {
@@ -76,6 +116,7 @@
 .menu-title {
   color: #FFFFFF;
   vertical-align: middle;
+
 
 }
 
@@ -102,14 +143,7 @@
   padding-left: 15px;
   padding-right: 15px;
 }
-.music-row {
-  background: rgba(193, 0, 0,0.95);
-  min-height: 50px;
-  padding-left: 15px;
-  padding-right: 15px;
 
-
-}
 .movies-row-last {
   background: rgba(0, 0, 0, 0.8);
   min-height: 425px;
