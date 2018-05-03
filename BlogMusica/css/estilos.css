@@ -41,7 +41,7 @@ background-color:rgba(131, 3, 3, 1);
     /**background: rgba(13, 11, 12, 1);**/
     background-color:rgba(227, 52, 52, 1);
     min-height: 50px;
-    padding:8px 15px 5px 15px;
+    padding:25px 15px 5px 15px;
     }
 
 .boton-menu{
@@ -68,7 +68,7 @@ background-color:rgba(131, 3, 3, 1);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  min-height: 200px;
+  min-height: 300px;
   border-radius: 0px !important;
   margin-bottom: 0px;
 }
@@ -96,6 +96,8 @@ background-color:rgba(131, 3, 3, 1);
   margin-top: 20px;
   color: #000000;
   text-align: justify;
+  
+  padding-left:30px;
 }
 
 .redes-sociales {
@@ -115,8 +117,6 @@ background-color:rgba(131, 3, 3, 1);
 
 .menu-title {
   color: #FFFFFF;
-  vertical-align: middle;
-
 
 }
 
