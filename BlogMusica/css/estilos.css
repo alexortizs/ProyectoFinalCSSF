@@ -1,5 +1,4 @@
 .blogmusica-body {
-/*  background: url(../img/fondo.jpg);*/
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-position: center center;
@@ -9,7 +8,6 @@
 }
 
 .navbar-inverse {
-  /*background-color:rgba(80, 8, 1, 0.96);  */
   background-color:rgba(131, 3, 3, 1);
   min-height: 10%;
   border: none;
@@ -21,7 +19,7 @@
   width: 120px;
 }
 
-.container-barra {
+.barra {
   margin-top: 5%;
 }
 .container-fluid {
@@ -37,31 +35,29 @@
   }
 
 
-.music-row {
-    /**background: rgba(13, 11, 12, 1);**/
+.music-barra-row {
+    margin-top: 30px;
     background-color:rgba(227, 52, 52, 1);
     min-height: 50px;
-    padding:25px 15px 5px 15px;
+    padding:15px 15px 5px 15px;
+    }
+
+.redes-sociales {
+      margin-top: 30px;
     }
 
 .boton-menu{
   background-color:rgba(131, 3, 3, 1);
   width: 100px;
+  border-color: rgba(255, 245, 245, 1);
 }
 
-
-.blog-musica {
-  /* background: url(../img/cartelera.jpg); */
-
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  min-height: 500px;
-  border-radius: 0px !important;
-  margin-bottom: 0px;
-}
-
+.music-row {
+      background: rgba(255, 245, 245, 1);
+      min-height: 380px;;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
 .jumbotron {
 
   background-attachment: scroll;
@@ -71,6 +67,7 @@
   min-height: 500px;
   border-radius: 0px !important;
   margin-bottom: 0px;
+  text-align: justify;
 }
 
 
@@ -83,17 +80,13 @@
   font-size: 18px;
   color: #000000;
 
+
 }
 .jumbotron-text {
   font-size: 14px;
   margin-top: 20px;
   color: #000000;
-  text-align: justify;
-  padding:20px;
-}
-
-.redes-sociales {
-  margin-top: 30px;
+  padding:4% 4% 2% 4%;
 }
 
 .img-social {
@@ -103,11 +96,9 @@
 
 .bloque-derecho{
   background: rgba(255, 245, 245, 1);
-  
-
 }
 .bloque-izquierdo {
-  padding: 25px 35px 25px 35px;
+
   background-color:rgba(224, 240, 255, 1);
 }
 .fila-buscar{
@@ -130,13 +121,15 @@
   font-size: 18px;
   font-weight: bolder;
   color: #FFFFFF;
-  padding: 10px;
+  padding: 2%;
 }
 .row-centered {
   text-align:center;
   vertical-align: middle;
 }
-
+.lista-busqueda{
+  background-color: rgba(255, 245, 245, 1);
+}
 
 
 
@@ -145,15 +138,13 @@
     font-size: 22px;
   }
 
-  .titulo-text {
+  .titulo-blog-musical {
     font-size: 15px;
   }
 
-  .right-column {
-    display: none;
-  }
 
-  .movies-row {
+
+  .music-row {
     padding-left: 0px;
     padding-right: 0px;
     min-height: 400px;
@@ -163,22 +154,18 @@
     margin-top: 60px;
   }
 
-  .movies-column {
+  .music-column {
     min-height: 230px;
   }
 
-  .blog-musica {
+  .jumbotron {
     min-height: 380px;
   }
 
-  .blog-musical-img {
+  .jumbotron-img {
     width: 150px;
     margin-top: 20px;
   }
 
-  .img-movies {
-    height: 133px;
-    padding: 6px;
-    margin-top: 22px;
-  }
+
 }
