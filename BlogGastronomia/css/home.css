@@ -1,5 +1,14 @@
 
 
+.banner {
+   background: url("img/c1p.png") repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+   width: 100% !important;
+}
+
 .logo-img{
   width: 90%;
 }
@@ -16,3 +25,14 @@ div.secondary.callout.text-center{
 .favorito{
   width: 50%;
 }
+.img-contenido{
+    width: 40%;
+
+  }
+  .blog-comentario{
+    border-style:inset;
+    border-radius: 15px;
+  }
+  .usuario-img{
+    height: 40px;
+  }
