@@ -67,7 +67,13 @@ div[class*="bloque"]{
   margin-top: 0.2rem;
   float: left;
 }
-
+.usuario-img{
+  height: 10px;
+}
+.blog-comentario{
+  border-style:inset;
+  border-radius: 15px;
+}
 
 #publicacion-texto{
   border-top-left-radius: 5px;
