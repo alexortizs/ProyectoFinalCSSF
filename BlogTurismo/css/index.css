@@ -41,7 +41,7 @@ div[class*="bloque"]{
   border: 0.35rem solid black;
   border-style: ridge;
   border-radius: 5px;
-  min-width:100%
+  
 }
 .buscar-campo{
   float: left;

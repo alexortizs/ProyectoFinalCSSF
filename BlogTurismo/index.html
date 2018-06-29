@@ -5,236 +5,136 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <!--Importar la fuente de los íconos de Google-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
   <!--Importar la hojas de estilos de materialize css-->
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/customColors.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <title>Contenedores y Sistema de Rejilla</title>
+  <title>Blog de Turismo</title>
 </head>
 <body>
   <div class="row">
-    <div class="s12 col amber darken-3 barra-superior">
+    <div class="s12 col green darken-3 barra-superior">
       <div class="row">
-        <div class="s12 m8 l5 col contenedor-logo">
+        <div class="s12 m8 l3 col contenedor-logo-buscar">
           <img src="img/lbturismo.jpg" alt="ShareUrCode" class="logo"/>
-          
         </div>
-        <div class="l4 offset-l3 col contenedor-botones hide-on-small-only">
-          <a class="btn-floating btn-small waves-effect waves-light blue-grey"><i class="material-icons">drafts</i></a>
-          <a class="btn-floating btn-small waves-effect waves-light blue-grey"><i class="material-icons">archive</i></a>
-          <a class="btn-floating btn-small waves-effect waves-light blue-grey"><i class="material-icons">help</i></a>
+        <div class="s12 l9 col contenedor-botones">
+           <button class = "btn yellow darken-9">Inicio</button></td>
+           <button class = "btn yellow darken-9">Estuve aquí</button></td>
+           <button class = "btn yellow darken-9">Mejores viajes</button></td>
+           <button class = "btn yellow darken-9">Recomendaciones</button></td>
         </div>
-      </div>
-    </div>
-    <div class="s2 m2 l2 col blue-grey lighten-5 columna-grupos push-s10">
-      <div class="collection">
-        <a class="collection-item avatar">
-          <img src="img/jsLogo.png" alt="" class="circle">
-          <span class="title hide-on-med-and-down">JavaScript</span>
-          <p class="hide-on-med-and-down">132 Miembros</p>
-        </a>
-        <a class="collection-item avatar">
-          <img src="img/cssLogo.png" alt="" class="circle">
-          <span class="title hide-on-med-and-down">CSS</span>
-          <p class="hide-on-med-and-down">101 Miembros</p>
-        </a>
-        <a class="collection-item avatar">
-          <img src="img/nodeLogo.png" alt="" class="circle">
-          <span class="title hide-on-med-and-down">NodeJS</span>
-          <p class="hide-on-med-and-down">93 Miembros</p>
-        </a>
-        <a class="collection-item avatar">
-          <img src="img/reactLogo.png" alt="" class="circle">
-          <span class="title hide-on-med-and-down">ReactJS</span>
-          <p class="hide-on-med-and-down">64 Miembros</p>
-        </a>
-        <a class="collection-item avatar">
-          <img src="img/angularLogo.png" alt="" class="circle">
-          <span class="title hide-on-med-and-down">AngularJS</span>
-          <p class="hide-on-med-and-down">34 Miembros</p>
-        </a>
-      </div>
-    </div>
-    <div class="s10 m7 l7 col white columna-principal pull-s2 z-depth-1">
-      <div class="row">
-        <div class="s12 m12 l8 col white columna-publicaciones">
-          <div class="contenedor-write-publicacion card amber lighten-4">
-            <div class="card-content">
-
-
-              <span>Escribe una nueva publicación</span>
-              <form>
-                <textarea id="publicacion-texto"></textarea>
-                <a href="#" class="waves-effect btn-floating blue-grey white-text"><i class="large material-icons">code</i></a>
-                <a href="#" class="waves-effect btn-floating blue-grey white-text"><i class="small material-icons">create</i></a>
-                <a href="#" class="waves-effect btn-floating blue-grey white-text"><i class="small material-icons">mic</i></a>
-                <button class="btn-flat waves-effect waves-light blue-grey white-text right hide-on-small-only" type="submit" name="action"><i class="material-icons right">send</i></button>
-                <button class="btn-floating waves-effect waves-light blue-grey white-text right hide-on-med-and-up" type="submit" name="action"><i class="material-icons right">send</i></button>
-              </form>
-
-            </div>
-
-          </div>
-          <div class="contenedor-publicacion card amber lighten-4">
-            <div class="card-content blue-grey white-text">
-              <span class="card-title activator">Carlos32: <i class="material-icons right">more_vert</i></span>
-              <p>
-                Les quiero compartir mi código usando Flexbox en CSS3.
-              </p>
-            </div>
-            <div class="card-image">
-              <span class="card-title">Uso de Flexbox</span>
-              <video src="media/vid1.mov" autoplay controls class="responsive-video media-element"></video>
-            </div>
-
-            <div class="card-reveal grey white-text">
-              <span class="card-title">Uso de Flexbox<i class="material-icons right">close</i></span>
-              <p>Este código se encarga de poner unos bloques de colores en un contenedor padre usando Flexbox.</p>
-            </div>
-
-
-          </div>
-          <div class="contenedor-publicacion card amber lighten-4">
-            <div class="card-content blue-grey white-text">
-              <span class="card-title activator">Juan.JS:<i class="material-icons right">more_vert</i></span>
-              <p>
-                Tengo una duda sobre Materialize CSS. ¡Ayuda!
-              </p>
-              <blockquote>
-                En esta ocasión estoy aprendiendo a implementar texto adaptativo, imágenes y video.
-                Me ha resultado muy sencillo implementar cada uno de estos elementos puesto que el Framework
-                lo hace muy sencillo. Sin embargo me surge una pregunta, tengo problemas
-                al usar un video desde la web, ¿Alguien puede ayudarme?
-              </blockquote>
-            </div>
-            <div class="card-reveal grey white-text">
-              <span class="card-title">Duda sobre Materialize CSS<i class="material-icons right">close</i></span>
-              <p class="flow-text">
-                Hola, quiero compartirles mi experiencia como programador web.
-                He aprendido mucho de diseño front-end mediante diversos frameworks
-                CSS y la verdad me siento muy a gusto desarrollando con Materialize CSS.
-              </p>
-
-            </div>
-
-          </div>
-        </div>
-        <div class="l3 offset-l1 col white columna-news hide-on-med-and-down">
-          <div class="contenedor-noticias amber lighten-4">
-            <h5 class="center-align">Últimas noticias</h5>
-            <p class="truncate">
-              -Se ha publicado la última versión de Java 8.
-            </p>
-            <img src="img/img2.jpg" class="responsive-img"/>
-            <p class="truncate">
-              -Nueva versión de JavaScript
-            </p>
-            <img src="img/img3.jpg" class="responsive-img"/>
-            <p class="truncate">
-              -Se aproxima la conferencia de desarrollo web.
-            </p>
-            <img src="img/img4.jpg" class="responsive-img"/>
-          </div>
+        <div class="l9 offset-l4 col">
+         <h5>"TODO LO QUE NECESITAS ES ECUADOR"</h5>
         </div>
       </div>
     </div>
-    <div class="m3 l3 col white columna-chat hide-on-small-only">
-      <div class="row">
-        <div class="s12 col bloque-feed">
-          <ul class="collection with-header avatar">
-            <li class="collection-header blue-grey white-text"><h5>Actividades Recientes</h5></li>
-            <li class="collection-item avatar blue-grey white-text">
-              <i class="material-icons circle blue">replay</i>
-              <span class="title">Maria_Dev</span>
-              <p>
-              respondió tu pregunta
-              </p>
-            </li>
-            <li class="collection-item avatar blue-grey white-text">
-              <i class="material-icons circle green">person_add</i>
-              <span class="title">CodigosOnline</span>
-              <p>
-              quiere agregarte como amigo
-              </p>
-            </li>
-            <li class="collection-item avatar blue-grey white-text">
-              <i class="material-icons circle yellow darken-3">help</i>
-              <span class="title">WebRodrigo</span>
-              <p>
-              te hizo una pregunta
-              </p>
-            </li>
-            <li class="collection-item avatar blue-grey white-text">
-              <i class="material-icons circle purple">people</i>
-              <span class="title">Grupo JavaScript</span>
-              <p>
-              hizo una publicación
-              </p>
-            </li>
+    <div class="s1 m1 l1 col green darken-3">
+     <div class="collection">
+        <a class="btn-floating btn-small"><img src='img/instagram.png'/></a>
+        <li></li>
+        <a class="btn-floating btn-small"><img src='img/facebook.png'/></a>
+        <li></li>
+        <a class="btn-floating btn-small"><img src='img/twitter.png'/></a>
+        <li></li>
+        <a class="btn-floating btn-small"><img src='img/pinterest.png'/></a>
+        <li></li>
+        <a class="btn-floating btn-small"><img src='img/youtube.png'/></a>
+        <li></li>
+     </div>
+    </div>
+    <div class="s6 m9 l11 col columna-publicaciones light-green lighten-4">
+      <div class="card-image s11 m10 l4 col">
+       <div class="row">
+        <img src="img/t1.png" alt="Banios de Agua Santa" class="responsive-img"/>
 
-          </ul>
+        <img src="img/t2.png" alt="Volcan Quilotoa" class="responsive-img"/>
+       </div>
+      </div>
+            <!-- class="responsive-img" -->
+      <div class="card-image s11 m10 l3 col ">
+        <div class="row">
+          <img src="img/t3.png" alt="Iglesia San Francisco" class="responsive-img"/>
         </div>
-        <div class="s12 col bloque-chat">
-          <ul class="collection with-header">
-            <li class="collection-header grey lighten-1"><h5>Chat</h5></li>
-            <li class="collection-item grey lighten-1">
-              <div class="chip">
-                <img src="img/hombre.png">
-                WebRodrigo
-              </div>
-            </li>
-            <li class="collection-item grey lighten-1">
-              <div class="chip">
-                <img src="img/hombre.png">
-                Carlos32
-              </div>
-            </li>
-            <li class="collection-item grey lighten-1">
-              <div class="chip">
-                <img src="img/mujer.png">
-                MariaDev
-              </div>
-            </li>
-            <li class="collection-item grey lighten-1">
-              <div class="chip">
-                <img src="img/hombre.png">
-                Juan.JS
-              </div>
-            </li>
-            <li class="collection-item grey lighten-1">
-              <div class="chip">
-                <img src="img/mujer.png">
-                Rita_G
-              </div>
-            </li>
-            <li class="collection-item grey lighten-1">
-              <div class="chip">
-                <img src="img/mujer.png">
-                Jazmin122
-              </div>
-            </li>
-            <li class="collection-item grey lighten-1">
-              <div class="chip">
-                <img src="img/hombre.png">
-                CodigosOnline
-              </div>
-            </li>
-          </ul>
-        </div>
-
+      </div>
+      <div class="card-image s11 m10 l4 col ">
+       <div class="row">
+        <img src="img/t4p.png" alt="Amazonia" class="responsive-img"/>
+         <img src="img/t5.png" alt="Galapagos" class="responsive-img"/>
+       </div>
       </div>
     </div>
-    <div class="fixed-action-btn hide-on-small-only" style="bottom: 45px; right: 90vw;">
-      <a class="btn-floating btn-large red">
-        <i class="large material-icons amber darken-4">build</i>
-      </a>
-      <ul>
-        <li><a class="btn-floating red"><i class="material-icons">notifications_active</i></a></li>
-        <li><a class="btn-floating yellow darken-1"><i class="material-icons">share</i></a></li>
-        <li><a class="btn-floating green"><i class="material-icons">lock_open</i></a></li>
-        <li><a class="btn-floating blue"><i class="material-icons">volume_off</i></a></li>
-      </ul>
+  </div>
+  <div class="row">
+   <div class="s12 m12 l8 col columna-blog bloque-feed light-green lighten-4 z-depth-3">
+    <span> 12 de junio 2018, Quito Ecuador - comentario #23
+    </span>
+     <div class="card">
+      <div class="card-image">
+          <img src="img/bt1.png">
+          <span class="card-title">Termas Papallacta</span>
+      </div>
+      <div class="card-content">
+        <p>El Hotel Termas de Papallacta, a veces llamado Papallacta Hot Springs Resort o Termas Papallacta, está ubicado en el pequeño pueblo ecuatoriano de Papallacta, en los Andes de Sudamérica. Está en una enorme elevación de 10,800 pies (3,300 metros). En comparación, Denver, Colorado está a solo 5,400 pies (1,645 metros).</p>
+        <p>Suena como un sueño: un hotel agradable, docenas de piscinas de agua caliente y un spa de clase mundial con vistas a un pequeño pueblo, en lo alto del exuberante bosque nuboso de los Andes, a solo una hora al este de Quito.</p>
+        <div class="row">
+         <div class="input-group s6 m6 l6 col">
+          <i class="input-group-addon"><img class='usuario-img' src='img/usuario.png'/>
+          </i>
+          <form>
+            <div class="form-group">
+             <label for="buscartextarea"></label>
+             <textarea class="blog-comentario" id="buscartextarea" rows="1" placeholder='Comentario...'></textarea>
+            </div>
+          </form>
+         </div>
+        </div>
+      </div>
+     </div>
+    <span> 27 de junio 2018, Quito Ecuador - comentario #24
+    </span>
+     <div class="card">
+      <div class="card-image">
+       <img src="img/bt2.png">
+       <span class="card-title">Lago San Pablo</span>
+      </div>
+       <div class="card-content">
+        <p>Es un hermoso ojo de agua custodiado por el volcán Imbabura y se encuentra a una hora 30 minutos de Quito. Es el lago más grande de la provincia de Imbabura. Los indígenas salen a pescar temprano por la mañana en sus canoas de totora y también toman un baño y lavan su ropa a orillas del Lago durante el día.</p>
+        <p>Está situado en una región densamente poblada por comunidades indígenas, es uno de los 28 lagos con que cuenta ésta provincia, el cual refresca la mirada al contemplar el paisaje</p>
+       <div class="row">
+        <div class="input-group s6 m6 l6 col">
+         <i class="input-group-addon"><img class='usuario-img' src='img/usuario.png'/>
+         </i>
+         <form>
+           <div class="form-group">
+            <label for="buscartextarea"></label>
+            <textarea class="blog-comentario" id="buscartextarea" rows="1" placeholder='Comentario...'></textarea>
+           </div>
+         </form>
+        </div>
+       </div>
+      </div>
+     </div>
+   </div>
+   <div class="s12 m12 l4 col columna-blog light-green lighten-4 z-depth-5 blog-perfil">
+      <div class="card-panel z-depth-2">
+       <div class="row">
+          <img src="img/ao.png" alt="" class="circle"> <!-- notice the "circle" class -->
+       </div>
+       <div class="row">
+          <h5> Perfil del autor </h5>
+         <span class="black-text"></span>
+          <h7>Alexander Ortiz</h7>
+          <li>Ingeniero en Informática</li>
+          <li>Magister en Gestión Informática</li>
+          <li>Gerencia de Proyectos Informáticos</li>
+          <li>Analista Informático</li>
+          <li>Diseño de páginas web</li>
+        </div>
+     </div>
     </div>
+   </div>
   </div>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
